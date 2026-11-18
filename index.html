@@ -1,66 +1,122 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Sumaiya Jahan — Portfolio</title>
+  <title>Sumaiya Jahan | Junior Frontend Developer</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="description"
+    content="Sumaiya Jahan - Junior Frontend Developer. Explore my portfolio, skills and projects.">
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-<header class="navbar">
-  <div class="wrap nav">
-    <h2 class="logo">Sumaiya<span>Jahan</span></h2>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
 
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
+      <a href="#home" class="logo">
+        Sumaiya<span>.</span>
+      </a>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="nav-btn">Let's Talk</a>
+
+    </div>
+  </header>
 
 
-
+  
 <!-- HERO -->
-<section id="home" class="hero">
-  <div class="wrap hero-grid">
+<section class="hero" id="home">
+  <div class="container hero-container">
 
-    <!-- LEFT SIDE TEXT -->
-    <div class="hero-text">
+    <div class="hero-content">
 
-      <h1>Hi, I'm <span>Sumaiya Jahan</span></h1>
-      <h3>Frontend Developer</h3>
+      <span class="availability">
+        <span class="status-dot"></span>
+        Open to Internship & Junior Opportunities
+      </span>
 
-      <p>
-        CSE Student at Leading University. I build responsive web apps using React, JavaScript and TailwindCSS.
+      <p class="intro">HELLO, I'M</p>
+
+      <h1>
+        Sumaiya <span>Jahan</span>
+      </h1>
+
+      <h2>Junior Frontend Developer</h2>
+
+      <p class="hero-description">
+        A Computer Science and Engineering graduate passionate
+        about building responsive, user-friendly and modern web
+        applications using React, Next.js and TypeScript.
+        I also enjoy exploring backend development.
       </p>
 
-      <!-- BUTTONS -->
-      <div class="btns">
-        <a href="assets/resume.pdf" class="btn" download>Download Resume</a>
+      <div class="hero-buttons">
+
+        <!-- Explore Projects -->
+        <a href="#projects" class="btn primary-btn">
+          Explore My Work
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <!-- View Resume -->
+        <a
+          href="https://drive.google.com/file/d/18l-4Nv_-BsLeWYZWY305OT5LPzRdmE5b/view"
+          class="btn secondary-btn"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa-solid fa-eye"></i>
+          View Resume
+        </a>
+
+        <!-- Download Resume -->
+        <a
+          href="https://drive.google.com/uc?export=download&id=18l-4Nv_-BsLeWYZWY305OT5LPzRdmE5b"
+          class="btn secondary-btn"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa-solid fa-download"></i>
+          Download Resume
+        </a>
+
       </div>
 
-      <!-- SOCIAL ICONS -->
-      <div class="social-row">
+      <div class="social-links">
 
-        <a href="https://github.com/Sumaiya1044" target="_blank" class="social-btn github">
+        <a href="https://github.com/Sumaiya1044"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="GitHub">
           <i class="fa-brands fa-github"></i>
         </a>
 
-      <a href="https://www.linkedin.com/in/sumaiya-jahan7953/" target="_blank" rel="noopener noreferrer" class="social-btn linkedin">
+        <a href="https://www.linkedin.com/in/sumaiya1044/"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="LinkedIn">
   <i class="fa-brands fa-linkedin"></i>
 </a>
 
@@ -69,131 +125,457 @@
 
     </div>
 
-    <!-- RIGHT SIDE IMAGE -->
-    <div class="photo">
-      <img src="assets/img.jpg.jpeg" class="profile-img" alt="Profile Image">
-    </div>
+    <div class="hero-image">
 
-  </div>
-</section>
-    
-  
+      <div class="image-frame">
+        <img
+          src="assets/img.jpg.jpeg"
+          alt="Sumaiya Jahan - Junior Frontend Developer">
+      </div>
 
- 
-
-</section>
-
-<!-- ABOUT -->
-<section id="about" class="section">
-  <div class="wrap">
-    <h2>About Me</h2>
-
-    <p>
-      I am Sumaiya Jahan, a passionate Frontend Developer and CSE student at Leading University.
-      I love UI design, frontend development and building real-world projects.
-    </p>
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="section dark">
-  <div class="wrap">
-
-    <h2>Skills</h2>
-
-    <!-- FRONTEND -->
-    <h3 class="skill-title">Frontend</h3>
-    <div class="skills-grid">
-
-      <div class="skill-card"><i class="fa-brands fa-html5"></i><p>HTML5</p></div>
-      <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><p>CSS3</p></div>
-      <div class="skill-card"><i class="fa-brands fa-js"></i><p>JavaScript</p></div>
-      <div class="skill-card"><i class="fa-brands fa-react"></i><p>React</p></div>
-      <div class="skill-card"><p>Next.js</p></div>
-      <div class="skill-card"><p>TailwindCSS</p></div>
-
-    </div>
-
-    <!-- BACKEND -->
-    <h3 class="skill-title">Backend</h3>
-    <div class="skills-grid">
-
-      <div class="skill-card"><i class="fa-brands fa-node"></i><p>Node.js</p></div>
-      <div class="skill-card"><p>Express.js</p></div>
-      <div class="skill-card"><p>MongoDB</p></div>
-      <div class="skill-card"><p>Firebase</p></div>
-
-    </div>
-
-    <!-- TOOLS -->
-    <h3 class="skill-title">Tools</h3>
-    <div class="skills-grid">
-
-      <div class="skill-card"><i class="fa-brands fa-git-alt"></i><p>Git</p></div>
-      <div class="skill-card"><i class="fa-brands fa-github"></i><p>GitHub</p></div>
-      <div class="skill-card"><p>VS Code</p></div>
-      <div class="skill-card"><p>Postman</p></div>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- EDUCATION -->
-<section id="education" class="section">
-  <div class="wrap">
-    <h2>Education</h2>
-
-    <p><b>BSc in CSE</b> — Leading University (Running)</p>
-    <p><b>HSC</b> — 2020</p>
-    <p><b>SSC</b> — 2018</p>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects" class="section dark">
-  <div class="wrap">
-    <h2>Projects</h2>
-
-    <div class="grid">
-
-      <div class="card">
-  <h3>PetCare</h3>
-  <p>Pet service platform with authentication</p>
-
-  <!-- VIEW DETAILS LINK -->
-  <a href="project1.html" class="btn-small">View Details</a>
-</div>
-
-      <div class="card">
-  <h3>Task Manager</h3>
-  <p>Kanban style app</p>
-  <a href="coming-soon.html">View Details</a>
-</div>
-
-      <div class="card">
-        <h3>Chat App</h3>
-        <p>Realtime chat application</p>
-        <a href=".html">View Details</a>
+      <div class="floating-card">
+        <i class="fa-solid fa-code"></i>
+        <div>
+          <strong>2026 Graduate</strong>
+          <small>Computer Science & Engineering</small>
+        </div>
       </div>
 
     </div>
+
   </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section">
-  <div class="wrap">
-    <h2>Contact</h2>
 
-    <p>Email: jahansumaiya684@gmail.com</p>
-    
-  </div>
-</section>
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
 
-<footer>
-  <p>© 2026 Sumaiya Jahan</p>
-</footer>
+      <div class="section-heading">
+        <span>GET TO KNOW ME</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-content">
+
+        <div class="about-text">
+          <h3>Building digital experiences with code.</h3>
+
+          <p>
+            I'm Sumaiya Jahan, a Computer Science and Engineering
+            graduate from Leading University, Sylhet (2026).
+          </p>
+
+          <p>
+            I enjoy developing responsive and interactive web
+            applications using React, Next.js, TypeScript and
+            Tailwind CSS.
+          </p>
+
+          <p>
+            Through projects like GearUp and PetCare, I have gained
+            practical experience in frontend development,
+            REST API integration, authentication and database-driven
+            applications.
+          </p>
+
+          <p>
+            Currently, I am strengthening my backend development
+            skills while looking for an opportunity to grow as a
+            Junior Frontend Developer.
+          </p>
+        </div>
+
+        <div class="about-stats">
+
+          <div class="stat-card">
+            <h3>2026</h3>
+            <p>CSE Graduate</p>
+          </div>
+
+        
+          <div class="stat-card">
+            <h3>Full Stack</h3>
+            <p>Project Experience</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SKILLS -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+
+      <div class="section-heading">
+        <span>MY TECHNICAL EXPERTISE</span>
+        <h2>Technical Skills</h2>
+        <p>Technologies I use and continue to learn.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML5</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS3</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-brands fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-brands fa-react"></i>
+          <h3>React.js</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-brands fa-react"></i>
+          <h3>Next.js</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>TypeScript</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-solid fa-wind"></i>
+          <h3>Tailwind CSS</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-brands fa-node-js"></i>
+          <h3>Node.js</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-solid fa-server"></i>
+          <h3>Express.js</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-solid fa-database"></i>
+          <h3>PostgreSQL</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-solid fa-database"></i>
+          <h3>Prisma ORM</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h3>JWT & Firebase Auth</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-brands fa-git-alt"></i>
+          <h3>Git & GitHub</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-solid fa-cloud"></i>
+          <h3>Vercel & Render</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-solid fa-credit-card"></i>
+          <h3>SSLCommerz</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="fa-solid fa-check-circle"></i>
+          <h3>Zod</h3>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+
+      <div class="section-heading">
+        <span>MY RECENT WORK</span>
+        <h2>Featured Projects</h2>
+        <p>Some projects where I applied my development skills.</p>
+      </div>
+
+
+      <!-- GEARUP -->
+      <article class="project-card featured-project">
+
+        <div class="project-image gear-image">
+          <div class="project-label">FEATURED PROJECT</div>
+          <i class="fa-solid fa-person-biking"></i>
+          <h3>GearUp</h3>
+          <p>Sports & Outdoor Gear Rental Platform</p>
+        </div>
+
+        <div class="project-content">
+
+          <span class="project-category">FULL-STACK WEB APPLICATION</span>
+
+          <h3>GearUp – Sports & Outdoor Gear Rental Platform</h3>
+
+          <p>
+            A full-stack rental platform where customers can
+            discover and rent sports equipment. Providers manage
+            their inventory and rental orders, while administrators
+            manage the platform.
+          </p>
+
+          <h4>Key Features</h4>
+
+          <ul>
+            <li>JWT Authentication & Role-Based Access</li>
+            <li>Gear Search, Filtering & Availability</li>
+            <li>Customer, Provider & Admin Dashboards</li>
+            <li>Rental Orders & Status Management</li>
+            <li>SSLCommerz Payment Integration</li>
+            <li>Reviews, Ratings & User Management</li>
+          </ul>
+
+          <div class="tech-stack">
+            <span>Next.js</span>
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Tailwind CSS</span>
+            <span>Zustand</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>PostgreSQL</span>
+            <span>Prisma</span>
+            <span>Zod</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://gearup-frontend-two.vercel.app/"
+               target="_blank"
+               rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Live Demo
+            </a>
+
+            <a href="https://github.com/Sumaiya1044/gearup-frontend"
+               target="_blank"
+               rel="noopener noreferrer">
+              <i class="fa-brands fa-github"></i>
+              Frontend Code
+            </a>
+
+            <a href="https://github.com/Sumaiya1044/GearUp-Backend"
+               target="_blank"
+               rel="noopener noreferrer">
+              <i class="fa-solid fa-server"></i>
+              Backend Code
+            </a>
+          </div>
+
+        </div>
+      </article>
+
+
+      <!-- PETCARE -->
+      <article class="project-card">
+
+        <div class="project-image pet-image">
+          <i class="fa-solid fa-paw"></i>
+          <h3>PetCare</h3>
+          <p>Pet Service Website</p>
+        </div>
+
+        <div class="project-content">
+
+          <span class="project-category">FRONTEND WEB APPLICATION</span>
+
+          <h3>PetCare – Pet Service Website</h3>
+
+          <p>
+            A responsive pet service website that allows users
+            to explore pet-related services, log in securely and
+            view personalized profile information.
+          </p>
+
+          <h4>Key Features</h4>
+
+          <ul>
+            <li>Firebase Authentication</li>
+            <li>User Login & Logout</li>
+            <li>Personalized User Profile</li>
+            <li>Dynamic Services from JSON Data</li>
+            <li>Interactive Image Slider</li>
+            <li>Responsive Navigation & Layout</li>
+          </ul>
+
+          <div class="tech-stack">
+            <span>React.js</span>
+            <span>JavaScript</span>
+            <span>Tailwind CSS</span>
+            <span>DaisyUI</span>
+            <span>Firebase</span>
+            <span>React Router</span>
+            <span>Swiper.js</span>
+            <span>Framer Motion</span>
+          </div>
+
+          <div class="project-links">
+
+            <a href="https://sunny-pothos-a3ccf1.netlify.app/"
+               target="_blank"
+               rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Live Demo
+            </a>
+
+            <a href="https://github.com/Sumaiya1044/petCare"
+               target="_blank"
+               rel="noopener noreferrer">
+              <i class="fa-brands fa-github"></i>
+              GitHub Code
+            </a>
+
+          </div>
+
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- EDUCATION -->
+  <section class="section education-section" id="education">
+    <div class="container">
+
+      <div class="section-heading">
+        <span>MY ACADEMIC BACKGROUND</span>
+        <h2>Education</h2>
+      </div>
+
+      <div class="education-card">
+
+        <div class="education-icon">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+
+        <div>
+          <span class="education-year">2026</span>
+          <h3>Bachelor of Science in Computer Science & Engineering</h3>
+          <p>Leading University, Sylhet</p>
+          <span class="education-status">Graduated</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CURRENT LEARNING -->
+  <section class="section learning-section">
+    <div class="container learning-content">
+
+      <div>
+        <span class="section-kicker">GROWING EVERY DAY</span>
+        <h2>Always Learning, Always Building.</h2>
+        <p>
+          Currently strengthening my backend development
+          knowledge in Node.js, Express.js, REST APIs,
+          PostgreSQL, Prisma, authentication and validation.
+        </p>
+      </div>
+
+      <i class="fa-solid fa-laptop-code learning-icon"></i>
+
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+
+      <div class="section-heading">
+        <span>LET'S CONNECT</span>
+        <h2>Get In Touch</h2>
+        <p>Have an opportunity or want to discuss a project?</p>
+      </div>
+
+      <div class="contact-card">
+
+        <h3>Let's build something meaningful together.</h3>
+
+        <p>
+          I'm open to Junior Frontend Developer opportunities
+          and internships where I can learn, contribute and grow.
+        </p>
+
+        <a href="mailto:jahansumaiya684@gmail.com"
+           class="btn primary-btn">
+          <i class="fa-solid fa-envelope"></i>
+          Contact Me
+        </a>
+
+        <div class="contact-details">
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            jahansumaiya684@gmail.com
+          </p>
+
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Sylhet, Bangladesh
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+
+      <h3>Sumaiya<span>.</span></h3>
+
+      <p>Junior Frontend Developer | Backend Development Learner</p>
+
+      <div class="footer-socials">
+        <a href="https://github.com/Sumaiya1044"
+           target="_blank"
+           rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://linkedin.com/in/sumaiya1044"
+           target="_blank"
+           rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+
+      <p class="copyright">
+        © 2026 Sumaiya Jahan. All rights reserved.
+      </p>
+
+    </div>
+  </footer>
 
 </body>
 </html>
